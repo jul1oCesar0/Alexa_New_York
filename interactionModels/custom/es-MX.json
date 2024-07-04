@@ -1,0 +1,114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "olvídalo",
+            "no importa",
+            "detén esto",
+            "termina esto",
+            "quitar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "puedes ayudarme",
+            "necesito ayuda",
+            "qué puedo hacer"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "salir",
+            "terminar",
+            "parar",
+            "finalizar"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estas",
+            "di hola mundo",
+            "di hola",
+            "dime hola mundo",
+            "dime hola"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "descripcionintent",
+          "samples": [
+            "cual es la descripcion de esta ciudad",
+            "dame la descripcion de esta ciudad",
+            "dime la descripcion de esta ciudad"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "lugaresturisticosintent",
+          "samples": [
+            "dame lugares turisticos para visitar",
+            "lugares turisticos",
+            "dime lugares turisticos de new york"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "comidatipicaintent",
+          "samples": [
+            "dame las comidas mas tipicas",
+            "las comidas mas conocidas de new york",
+            "dime las comidas tipicas"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "trajetipicointent",
+          "samples": [
+            "me dices los trajes tipicos de new york",
+            "trajes tipicos de new york",
+            "dime los trajes tipicos de new york"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "personajesintent",
+          "samples": [
+            "personajes sobresalientes de new york",
+            "los personajes sobresalientes de esa ciudad",
+            "dime los personajes sobresalientes de new york"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "musicaintent",
+          "samples": [
+            "dame canciones de new york",
+            "cancion de new york",
+            "musica de new york"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "nueva york"
+    }
+  }
+}
